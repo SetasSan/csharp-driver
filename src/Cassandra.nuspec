@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Cassandra drivers</id>
+    <id>Cassandra.dotnet.drivers</id>
     <version>$version$</version>
     <title>Cassandra Drivers</title>
     <authors>Some guy</authors>
