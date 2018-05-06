@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Cassandra.dotnet.drivers</id>
+    <id>Cassandra.netstandard1.5</id>
     <version>$version$</version>
     <title>Cassandra Drivers</title>
     <authors>Some guy</authors>
@@ -16,6 +16,6 @@
     <tags></tags>
   </metadata>
   <files>
-	<file src="Cassandra\bin\$configuration$\Cassandra.dll" target="lib\net40\" />
+	<file src="Cassandra\bin\$configuration$\netstandard1.5\Cassandra.dll" target="lib\netstandard1.5\" />
   </files>
 </package>
