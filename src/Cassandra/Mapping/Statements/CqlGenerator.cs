@@ -71,6 +71,10 @@ namespace Cassandra.Mapping.Statements
             {
                 return identifier;
             }
+            if(Regex.IsMatch(identifier, @"^[a-zA-Z0-9_]+$"))
+            {
+                return identifier;
+            }
             return "\"" + identifier + "\"";
         }
 
