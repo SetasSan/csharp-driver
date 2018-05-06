@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Cassandra drivers</id>
+    <version>$version$</version>
+    <title>Cassandra Drivers</title>
+    <authors>Some guy</authors>
+    <owners>Setas san</owners>
+    <licenseUrl>https://github.com/terrariumapp/terrarium-sdk/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>http://terrarium.azurewebsites.net/</projectUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/7890777?s=140</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Cassandra updated drivers</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+	<file src="Cassandra\bin\$configuration$\Cassandra.dll" target="lib\net40\" />
+  </files>
+</package>
